@@ -1,6 +1,6 @@
 from diaries.AbstractDiary import AbstractDiary
 
-class DiaryRyoei(AbstractDiary):
+class K23140Diary(AbstractDiary):
 
     def get_date(self):
         return "2024-11-28"
@@ -9,4 +9,4 @@ class DiaryRyoei(AbstractDiary):
         return "Githubの使い方が少しわかった"
 
     def get_author(self):
-        return "Ryoei"
+        return "K23140"
