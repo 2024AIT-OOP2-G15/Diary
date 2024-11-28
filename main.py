@@ -1,7 +1,7 @@
-from diaries.k23064Diary import k23064Diary
+from diaries.SugamotoDiary import SugamotoDiary
 
 # ↓のリストには、メンバーの各日記が格納されます。
-diaries = [k23064Diary(),] 
+diaries = [SugamotoDiary(),] 
 
 for d in diaries:
     print("---------------------------------")
