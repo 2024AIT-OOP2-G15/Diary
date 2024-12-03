@@ -1,4 +1,4 @@
-from AbstractDiary import AbstractDiary
+from diaries.AbstractDiary import AbstractDiary
 class KimihikoDiary(AbstractDiary):
 
     def get_date(self):
